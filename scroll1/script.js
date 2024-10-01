@@ -14,6 +14,7 @@ gsap.from('.page2 .box', {
     trigger: '.page2 .box',
     scroller: 'body',
     markers: true,
+    // スタートラインを画面の上からの座標で変更できる
     start: 'top 60%',
   },
 });
